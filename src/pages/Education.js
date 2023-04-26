@@ -43,7 +43,7 @@ function Education() {
                 <img src="./assets/images/unigranrio.png" alt="" />
               </div>
               <div className="ps-bot">
-                <p>MBA</p>
+                <p>MBA - Business Management</p>
               </div>
               <span className="ps-sp-top">2013 <br />2015 </span>
             </li>
