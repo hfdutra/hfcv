@@ -152,3 +152,21 @@ button {
     display: none !important;
   }
 }
+
+@keyframes myAnim {
+	0% {
+		transform: translateX(0);
+	}
+
+	100% {
+		transform: translateX(100px);
+	}
+}
+
+
+
+svg .arrow-left,
+svg .arrow-right {
+  animation: myAnim 1s ease 0s 1 reverse forwards;
+  transition: opacity 0.3s, transform 0.5s 100ms;
+}
