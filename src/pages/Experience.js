@@ -52,6 +52,8 @@ function Experience() {
                                 <ul>
                                     <li>Develop and manage websites using WordPress, Prestashop, and Shopify</li>
                                     <li>Develop custom WordPress themes and plugins to cater to unique client needs</li>
+                                    <li>Develop and maintain code for in-house and client websites using HTML, CSS, Sass, JavaScript, jQuery, PHP, WordPress, Drupal, and other technologies.</li>
+                                    <li>Test front-end code across multiple browsers and mobile devices to ensure cross-browser compatibility and responsiveness.</li>
                                     <li>Built and delivered technical solutions according to stakeholder business requirements</li>
                                     <li>Customize layouts for WordPress, Prestashop, and Shopify to enhance website usability and user experience</li>
                                     <li>Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders</li>
@@ -79,6 +81,8 @@ function Experience() {
                             <div>
                                 <ul>
                                     <li>Develop and manage websites using WordPress and Shopify</li>
+                                    <li>Develop and maintain code for in-house and client websites using HTML, CSS, Sass, JavaScript, jQuery, PHP, WordPress, Drupal, and other technologies.</li>
+                                    <li>Test front-end code across multiple browsers and mobile devices to ensure cross-browser compatibility and responsiveness.</li>
                                     <li>Produce newsletters and design layouts for mobile apps</li>
                                     <li>Develop custom WordPress themes and plugins to cater to unique client needs</li>
                                     <li>Customize layouts for WordPress, Prestashop, and Shopify to enhance website usability and user experience</li>
@@ -108,6 +112,9 @@ function Experience() {
                             <div>
                                 <ul>
                                     <li>Develop and manage websites using WordPress, Prestashop, and Shopify</li>
+
+                                    <li>Develop and maintain code for in-house and client websites using HTML, CSS, Sass, JavaScript, jQuery, PHP, WordPress, Drupal, and other technologies.</li>
+                                    <li>Test front-end code across multiple browsers and mobile devices to ensure cross-browser compatibility and responsiveness.</li>
                                     <li>Built and delivered technical solutions according to stakeholder business requirements</li>
                                     <li>Produce newsletters and design layouts for mobile apps</li>
                                     <li>Manage a dedicated server to ensure optimal performance and minimal downtime</li>
@@ -141,6 +148,8 @@ function Experience() {
                                     <li>Prepare posts for newspapers, magazines, billboards, ads, banners, and other media</li>
                                     <li>Develop and manage websites to ensure optimal functionality and user experience</li>
                                     <li>Design newsletter layouts to enhance readability and visual appeal</li>
+                                    <li>Develop and maintain code for in-house and client websites using HTML, CSS, Sass, JavaScript, jQuery, PHP, WordPress, Drupal, and other technologies.</li>
+                                    <li>Test front-end code across multiple browsers and mobile devices to ensure cross-browser compatibility and responsiveness.</li>
                                     <li>Built and delivered technical solutions according to stakeholder business requirements</li>
                                     <li>Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements</li>
                                 </ul>
