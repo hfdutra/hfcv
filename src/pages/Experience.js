@@ -50,10 +50,11 @@ function Experience() {
 
                             <div>
                                 <ul>
-                                    <li>Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more</li>
-                                    <li>Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements</li>
+                                    <li>Develop and manage websites using WordPress, Prestashop, and Shopify</li>
+                                    <li>Develop custom WordPress themes and plugins to cater to unique client needs</li>
+                                    <li>Built and delivered technical solutions according to stakeholder business requirements</li>
+                                    <li>Customize layouts for WordPress, Prestashop, and Shopify to enhance website usability and user experience</li>
                                     <li>Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders</li>
-                                    <li>Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship</li>
                                 </ul>
                             </div>
 
@@ -77,10 +78,14 @@ function Experience() {
 
                             <div>
                                 <ul>
-                                    <li>Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more</li>
-                                    <li>Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements</li>
+                                    <li>Develop and manage websites using WordPress and Shopify</li>
+                                    <li>Produce newsletters and design layouts for mobile apps</li>
+                                    <li>Develop custom WordPress themes and plugins to cater to unique client needs</li>
+                                    <li>Customize layouts for WordPress, Prestashop, and Shopify to enhance website usability and user experience</li>
                                     <li>Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders</li>
+                                    <li>Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements</li>
                                     <li>Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship</li>
+
                                 </ul>
                             </div>
 
@@ -102,9 +107,15 @@ function Experience() {
 
                             <div>
                                 <ul>
-                                    <li>Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more</li>
-                                    <li>Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements</li>
+                                    <li>Develop and manage websites using WordPress, Prestashop, and Shopify</li>
+                                    <li>Built and delivered technical solutions according to stakeholder business requirements</li>
+                                    <li>Produce newsletters and design layouts for mobile apps</li>
+                                    <li>Manage a dedicated server to ensure optimal performance and minimal downtime</li>
+                                    <li>Develop custom WordPress themes and plugins to cater to unique client needs</li>
+                                    <li>Create online menus, video lesson platforms, wine lists, and other digital assets using a WordPress structure</li>
+                                    <li>Customize layouts for WordPress, Prestashop, and Shopify to enhance website usability and user experience</li>
                                     <li>Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders</li>
+                                    <li>Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements</li>
                                     <li>Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship</li>
                                 </ul>
                             </div>
@@ -126,10 +137,12 @@ function Experience() {
 
                             <div>
                                 <ul>
-                                    <li>Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more</li>
+                                    <li>Design, develop and edit advertising pieces, including photos and videos</li>
+                                    <li>Prepare posts for newspapers, magazines, billboards, ads, banners, and other media</li>
+                                    <li>Develop and manage websites to ensure optimal functionality and user experience</li>
+                                    <li>Design newsletter layouts to enhance readability and visual appeal</li>
+                                    <li>Built and delivered technical solutions according to stakeholder business requirements</li>
                                     <li>Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements</li>
-                                    <li>Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders</li>
-                                    <li>Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship</li>
                                 </ul>
                             </div>
 
@@ -150,10 +163,10 @@ function Experience() {
 
                             <div>
                                 <ul>
-                                    <li>Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more</li>
-                                    <li>Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements</li>
-                                    <li>Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders</li>
-                                    <li>Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship</li>
+                                    <li>Create, develop, and edit presentations in multiple languages for state leaders, executives, committees, and foreign delegations</li>
+                                    <li>Develop strategic and visually appealing pieces and public relations campaigns related to the government's actions in the House of Representatives</li>
+                                    <li>Manage websites using HTML and CSS to ensure optimal functionality and user experience</li>
+                                    <li>Create and design newsletter diagrams and programs to enhance readability and visual appeal</li>
                                 </ul>
                             </div>
 
@@ -174,10 +187,12 @@ function Experience() {
 
                             <div>
                                 <ul>
-                                    <li>Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more</li>
-                                    <li>Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements</li>
-                                    <li>Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders</li>
-                                    <li>Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship</li>
+
+                                    <li>Instruct students on the fundamental principles of graphic design and web design</li>
+                                    <li>Teach students to use Adobe Creative Suite software, including Illustrator, Photoshop, InDesign, Dreamweaver, Flash, and Corel Draw</li>
+                                    <li>Develop and deliver engaging lesson plans and instructional materials to facilitate student learning and retention</li>
+                                    <li>Provide personalized feedback and guidance to students to help them achieve their learning objectives</li>
+                                    <li>Collaborate with faculty and staff to ensure program curriculum aligns with industry standards and trends</li>
                                 </ul>
                             </div>
 
