@@ -165,8 +165,12 @@ button {
 
 
 
-svg .arrow-left,
-svg .arrow-right {
+svg .arrow-left {
   animation: myAnim 1s ease 0s 1 reverse forwards;
+  transition: opacity 0.3s, transform 0.5s 100ms;
+}
+
+svg .arrow-right {
+  animation: myAnim 1s ease 0s 1 forwards;
   transition: opacity 0.3s, transform 0.5s 100ms;
 }
