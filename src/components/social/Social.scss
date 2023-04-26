@@ -1,0 +1,100 @@
+@import '/src/assets/scss/_Vars.scss';
+
+.social-fixed {
+
+  .left {
+    position: fixed;
+    bottom: 0px;
+    width: 40px;
+    bottom: 1rem;
+    left: 1rem;
+    right: auto;
+    z-index: 10;
+
+    ul {
+      padding: 0;
+      list-style: none;
+    }
+
+    li {
+      animation: slide-top 1s cubic-bezier(.05, .2, .1, 1) both;
+      transform: translateY(0px);
+      transition: all 0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
+
+      &:hover {
+        margin: 0px 0 5px;
+        transition: all 0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
+
+        a {
+          color: $text-color1
+        }
+      }
+
+      &:nth-child(1) {
+        animation-delay: .1s;
+      }
+
+      &:nth-child(2) {
+        animation-delay: .2s;
+      }
+
+      &:nth-child(3) {
+        animation-delay: .3s;
+      }
+
+      &:nth-child(4) {
+        animation-delay: .4s;
+      }
+
+      &:nth-child(5) {
+        animation-delay: .5s;
+      }
+
+      &:nth-child(6) {
+        animation-delay: .6s;
+      }
+
+      &:nth-child(7) {
+        animation-delay: .7s;
+      }
+
+    }
+
+    a {
+      transform: translateY(0px);
+      transition: $transition1;
+      font-size: 20px;
+
+      &:hover {
+        transform: translateY(-3px);
+      }
+    }
+
+  }
+
+  .right {
+    position: fixed;
+    bottom: 0px;
+    bottom: 1rem;
+    right: 1rem;
+    left: auto;
+    z-index: 10;
+    animation: slide-top 1s cubic-bezier(.05, .2, .1, 1) both;
+    animation-delay: .7s;
+
+    a {
+      -webkit-writing-mode: vertical-rl;
+      writing-mode: vertical-rl;
+      color: $accent-color;
+      font-size: 1.3rem;
+      font-weight: 600;
+
+      &:hover {
+        transform: translateY(-5px);
+        color: $text-color1
+      }
+    }
+  }
+
+
+}

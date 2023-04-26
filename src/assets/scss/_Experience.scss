@@ -1,0 +1,190 @@
+@import '/src/assets/scss/_Vars.scss';
+
+#Experience {
+    padding: 8rem 0;
+    overflow-x: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    @media (max-width: 768px) {
+        height: auto;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+
+        .react-tabs {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            gap: 3rem;
+            width: 100%;
+            height: auto;
+            border: none;
+            color: $text-color1;
+            background: transparent;
+
+            @media (max-width: 768px) {
+                display: flex;
+                flex-direction: column;
+            }
+
+        }
+
+        .react-tabs__tab-list {
+            display: flex;
+            flex-direction: column;
+            width: auto;
+            margin: 0;
+            padding: 0;
+            color: $text-color1;
+            background: transparent;
+            border: none;
+
+            @media (max-width: 768px) {
+                display: grid;
+                grid-template-columns: repeat(6, 33.3%);
+                overflow-x: scroll;
+            }
+        }
+
+        .react-tabs__tab {
+            list-style: none;
+            padding: 1.5rem 2rem;
+            cursor: pointer;
+            color: $text-color1;
+            border-left: 4px solid #efefef;
+
+            @media (max-width: 768px) {
+                width: 100%;
+                padding: 10px !important;
+                text-align: center;
+                line-height: 1.2;
+                border-left: 0px solid #efefef;
+                border-bottom: 2px solid #efefef;
+                margin-bottom: 3rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: move;
+
+                &::after {
+                    content: "▹";
+                    position: absolute;
+                    right: 10px;
+                    color: #1f6feb;
+                    font-size: 3rem;
+                }
+            }
+        }
+
+        .react-tabs__tab--selected {
+            border-left: 4px solid $accent-color !important;
+            color: $accent-color;
+            border-color: transparent;
+            outline: none;
+            font-weight: bold;
+
+            @media (max-width: 768px) {
+                background: $accent-color;
+                color: white;
+                border-left: 0px solid #efefef !important;
+                border-bottom: 0px solid $accent-color !important;
+            }
+        }
+
+        .react-tabs__tab-panel {
+            display: none;
+            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+            transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+        }
+
+        .react-tabs__tab-panel--selected {
+            display: block;
+            transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+            transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+        }
+
+        .react-tabs__tab {
+            padding-left: 3rem;
+        }
+
+        .react-tabs__tab--selected {
+            padding-left: 3rem;
+        }
+
+        .panel-content {
+
+            /*             text-align: center; */
+            .range {
+                margin-bottom: 3rem;
+                color: $accent-color;
+            }
+
+            h3 {
+                font-size: 2.2rem;
+                line-height: 1.2;
+                margin-bottom: 1rem;
+                display: grid;
+                grid-template-columns: 4fr 1fr;
+
+                img {
+                    width: 40px !important;
+                    height: auto !important;
+                    margin-left: auto;
+                }
+            }
+
+            ul {
+                list-style: none;
+            }
+
+            ul li {
+                position: relative;
+                padding-left: 30px;
+                margin-bottom: 10px;
+            }
+
+            ul li::before {
+                content: "▹";
+                position: absolute;
+                left: 0px;
+                color: $accent-color;
+            }
+        }
+
+        span.timer {
+            color: $text-color1;
+            font-size: 1.2rem;
+            margin-top: 1rem;
+            font-style: italic;
+            display: block;
+        }
+
+    }
+}
+
+#Experience ::-webkit-scrollbar {
+    height: 10px;
+    cursor: grab;
+    /* width of the entire scrollbar */
+}
+
+#Experience ::-webkit-scrollbar-track {
+    background: #ddd;
+    /* color of the tracking area */
+}
+
+#Experience ::-webkit-scrollbar-thumb {
+    background-color: $accent-color;
+    width: 10px;
+    /* color of the scroll thumb */
+    border-radius: 0px;
+    /* roundness of the scroll thumb */
+    border: 5px solid $accent-color;
+    /* creates padding around scroll thumb */
+}

@@ -1,0 +1,56 @@
+#Skills {
+
+  padding: 8rem 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  @media (max-width: 768px) {
+    height: auto;
+  }
+
+  .container {
+    margin: auto;
+    width: 100%;
+
+  }
+
+
+  .item span {
+    font-size: 1.3rem;
+    line-height: 1.2;
+    font-weight: 600;
+    display: block;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2rem;
+    text-align: center;
+
+    @media (max-width: 768px) {
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 3rem;
+      row-gap: 1rem;
+    }
+  }
+
+  .gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 1rem;
+    max-height: 80px;
+  }
+
+
+  .container {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    flex-direction: column;
+  }
+}

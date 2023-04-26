@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        mask: url(#mask);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <mask id="mask" x="0" y="0" width="100" height="100" maskUnits="userSpaceOnUse">
+      <g id="mask-2">
+        <circle id="path-1" class="cls-2" cx="50" cy="50" r="50"/>
+      </g>
+    </mask>
+    <linearGradient id="linear-gradient" x1="3249.24" y1="4563.77" x2="3249.35" y2="4563.61" gradientTransform="translate(-441304.09 719531.47) scale(135.83 -157.65)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="3076.07" y1="4545.43" x2="3076.07" y2="4545.14" gradientTransform="translate(-52431.05 465481.71) scale(17.07 -102.4)" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g class="cls-3">
+      <g>
+        <circle cx="50" cy="50" r="50"/>
+        <path class="cls-4" d="m83.06,87.51L38.41,30h-8.41v39.98h6.73v-31.44l41.05,53.03c1.85-1.24,3.62-2.6,5.28-4.07Z"/>
+        <rect class="cls-1" x="63.89" y="30" width="6.67" height="40"/>
+      </g>
+    </g>
+  </g>
+</svg>

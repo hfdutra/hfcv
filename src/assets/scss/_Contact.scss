@@ -1,0 +1,75 @@
+@import '/src/assets/scss/_Vars.scss';
+
+#Contact {
+    padding: 8rem 0;
+    overflow-x: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    @media (max-width: 768px) {
+        height: auto;
+    }
+
+    .container {
+        margin: auto;
+        width: 100%;
+
+    }
+
+
+    .block-title {
+        margin: auto;
+    }
+
+    p {
+        margin-bottom: 5rem;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 5rem !important;
+    }
+
+    .ctas {
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    a {
+        display: block;
+        text-align: center;
+        margin: auto 1rem;
+        position: relative;
+        font-family: "Plus Jakarta Sans", "Inter", Helvetica, sans-serif;
+        color: $accent-color;
+        font-weight: 600;
+        background-color: transparent;
+        border: 1px solid $accent-color;
+        padding: 1.5rem 5rem;
+        font-size: 1.6rem;
+        line-height: 1;
+        text-decoration: none;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $accent-color;
+            color: #FFF;
+            transition: $transition1;
+        }
+
+        @media (max-width: 768px) {
+            padding: 1.5rem 3rem;
+        }
+    }
+
+    .container {
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+}

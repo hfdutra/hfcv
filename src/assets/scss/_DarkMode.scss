@@ -1,0 +1,79 @@
+@import '/src/assets/scss/_Vars.scss';
+
+/* Estilos para o dark mode */
+body.dark {
+  background-color: $bg-dark;
+  color: $text-color4;
+
+  header {
+    background-color: rgb(13 17 23 / 50%);
+  }
+
+  nav ul {
+
+    @media (max-width: 768px) {
+      background-color: rgb(13 17 23 / 97%);
+    }
+
+    a {
+      color: $text-color4;
+
+      &:hover {
+        color: $accent-color;
+      }
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  #Experience .container .react-tabs {
+    color: $text-color4;
+  }
+
+  a,
+  #Experience .container .react-tabs__tab--selected p,
+  .accent {
+    color: $accent-color;
+  }
+
+  img[class="signature"],
+  img[alt="WordPress"],
+  img[alt="NextJs"],
+  img[alt="SquareSpace"] {
+    filter: invert(1);
+  }
+
+  .ps-timeline-sec .container ol.ps-timeline li span {
+    background: $bg-dark;
+    color: $text-color3
+  }
+
+  footer {
+    border-color: $accent-color;
+  }
+
+  svg g#hf {
+    fill: white !important;
+  }
+
+  #Home .scroll-down-wrap a:hover,
+  .social-fixed li:hover a,
+  .social-fixed a:hover,
+  #Experience .container .react-tabs__tab--selected p {
+    color: white !important;
+  }
+
+  #Experience span.timer {
+    color: white;
+  }
+
+  .bg-alt {
+    background: linear-gradient(0deg, rgba(233, 239, 242, .03) 0%, rgba(255, 255, 255, .01) 50%, rgba(233, 239, 242, .03) 100%);
+  }
+
+}

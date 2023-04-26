@@ -1,0 +1,117 @@
+@import '_Vars.scss';
+
+#Home {
+
+    min-height: 100vh;
+    height: 100vh;
+
+    .container {
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100%;
+
+
+        @media screen and (max-width: 768px) {
+            padding: 2rem 2rem;
+        }
+
+        .slide img {
+            width: 20px;
+        }
+
+        h1 {
+            font-size: 6rem;
+            line-height: 1.2;
+            margin: 0;
+            padding: 0;
+            animation: slide-top 1s cubic-bezier(.05, .2, .1, 1) both;
+            animation-delay: 1.5s;
+
+            @media screen and (max-width: 768px) {
+                font-size: 3.5rem;
+                line-height: 1.2;
+            }
+        }
+
+        h1.hf {
+            animation-delay: 1.2s;
+        }
+
+        h4 {
+            font-size: 2rem;
+            color: $accent-color;
+            margin-bottom: 2rem;
+            animation: slide-bottom 1s cubic-bezier(.05, .2, .1, 1) both;
+            animation-delay: 1s;
+            line-height: 1;
+            @media screen and (max-width: 768px) {
+                font-size: 1.6rem;
+                margin: 2rem 0;
+            }
+        }
+
+        p {
+            font-size: 1.8rem;
+            line-height: 1.6;
+            font-weight: 400;
+            margin: 3rem 0;
+            animation: slide-top 1s cubic-bezier(.05, .2, .1, 1) both;
+            animation-delay: 1.9s;
+
+            @media screen and (max-width: 768px) {
+                font-size: 1.6rem;
+                margin: 2rem 0;
+            }
+        }
+
+        .cta-link {
+            display: block;
+            font-family: $font-title;
+            color: $accent-color;
+            font-weight: 600;
+            background-color: transparent;
+            border: 1px solid $accent-color;
+            padding: 1.5rem 5rem;
+            font-size: 1.6rem;
+            line-height: 1;
+            text-decoration: none;
+            cursor: pointer;
+            animation: slide-top 1s cubic-bezier(.05, .2, .1, 1) both;
+            animation-delay: 2s;
+
+            &:hover {
+                background-color: $accent-color;
+                color: $text-color3;
+            }
+        }
+
+    }
+
+    .scroll-down-wrap {
+        text-align: center;
+        margin-top: 5rem;
+        animation: slide-top 1s cubic-bezier(.05, .2, .1, 1) both;
+        animation-delay: 3s;
+
+        @media screen and (max-width: 768px) {
+            margin-top: 1rem;
+        }
+
+        a {
+            transition: transform .2s ease;
+            display: block;
+            font-size: 30px;
+            margin: auto;
+            animation: arrow 2s ease-in-out 0s infinite normal both;
+
+            @media screen and (max-width: 768px) {
+                font-size: 30px;
+            }
+
+        }
+    }
+}
